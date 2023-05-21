@@ -1,37 +1,33 @@
 .navbar {
     background-color: #0a0a0a;
-    padding: 0.7rem 2.5rem;
+    padding: 0.7rem 2rem;
     color: white;
 }
 
 .navbar-brand img {
-    width: 100px;
+    width: 90px;
 }
 
 .nav-link {
-    font-size: 0.9rem;
-    font-weight: 400;
-    color: white;
+    font-size: 0.8rem;
+    color: #f0ecea;
 }
 
 .nav-link:hover {
-    color: red;
+    color: #88827f;
 }
 
 .nav-link:focus {
-    color: red;
+    color: white;
+    font-weight: 500;
 }
 
 .dropdown-menu {
     background-color: #0a0a0a;
 }
 
-.dropdown-menu .nav-link {
-    color: white;
-}
-
 .bi {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-right: 10px;
 }
 
