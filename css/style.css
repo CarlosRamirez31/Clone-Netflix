@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #0a0a0a;
+    padding: 0.7rem 2.5rem;
+    color: white;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.nav-link {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: white;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.nav-link:focus {
+    color: red;
+}
+
+.dropdown-menu {
+    background-color: #0a0a0a;
+}
+
+.dropdown-menu .nav-link {
+    color: white;
+}
+
+.bi {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
