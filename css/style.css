@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 body{
     background-color: #141414;
 }
@@ -36,20 +38,36 @@ body{
     margin-right: 10px;
 }
 
-.movie {
+.hero {
+    min-height: 80vh;
     position: relative;
 }
 
-.movie video {
+.hero video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: -1;
+    height: 100%;
+    object-fit: cover;
 }
 
-.overlay {
-    height: 90vh;
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    width: 30%;
+    height: 100%;
+    padding-left: 10px;
+    z-index: 5;
+}
+
+
+.movie-info h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
 }
 
 @media (min-width: 778px){
