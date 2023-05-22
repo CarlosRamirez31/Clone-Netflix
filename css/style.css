@@ -1,7 +1,12 @@
+body{
+    background-color: #141414;
+}
+
 .navbar {
     background-color: #0a0a0a;
     padding: 0.7rem 2rem;
     color: white;
+    z-index: 9999;
 }
 
 .navbar-brand img {
@@ -29,6 +34,22 @@
 .bi {
     font-size: 1rem;
     margin-right: 10px;
+}
+
+.movie {
+    position: relative;
+}
+
+.movie video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.overlay {
+    height: 90vh;
 }
 
 @media (min-width: 778px){
