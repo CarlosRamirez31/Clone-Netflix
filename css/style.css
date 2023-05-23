@@ -43,7 +43,7 @@ body{
     position: relative;
 }
 
-.hero video {
+.hero img {
     position: absolute;
     top: 0;
     left: 0;
