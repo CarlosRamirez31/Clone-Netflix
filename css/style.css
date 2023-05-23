@@ -64,10 +64,27 @@ body{
     z-index: 5;
 }
 
-
 .movie-info h1{
     font-family: 'Bree Serif', serif;
     font-size: 1.5rem;
+}
+
+.hero-movies {
+    margin-bottom: 15px;
+}
+
+.hero-movies h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    margin: 1rem 4rem;
+}
+
+.carousel-control-prev {
+    width: 54px;
+}
+
+.carousel-control-next {
+    width: 54px;
 }
 
 @media (min-width: 778px){
