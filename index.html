@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body onload="carousel(), preview()">
     <nav class="navbar navbar-expand-md">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -72,28 +72,16 @@
     <section class="hero-movies">
       <h2>Mas populares</h2>
       <div id="displacement" class="carousel slide">
-        <div class="carousel-inner">
+        <div class="carousel-inner carousel-img">
           <div class="carousel-item active">
             <div class="container movie-img">
-              <div class="row">
-                <div class="col-2 ">
-                  <img class="img-fluid" src="img/Portada prueba.jpg" alt="portada de la imagen">
-                </div>
-                <div class="col-2">
-                  <img class="img-fluid" src="img/Portada prueba.jpg" alt="portada de la imagen">
-                </div>
-                <div class="col-2">
-                  <img class="img-fluid" src="img/Portada prueba.jpg" alt="portada de la imagen">
-                </div>
-                <div class="col-2">
-                  <img class="img-fluid" src="img/Portada prueba.jpg" alt="portada de la imagen">
-                </div>
-                <div class="col-2">
-                  <img class="img-fluid" src="img/Portada prueba.jpg" alt="portada de la imagen">
-                </div>
-                <div class="col-2">
-                  <img class="img-fluid" src="img/Portada prueba.jpg" alt="portada de la imagen">
-                </div>
+              <div id="carousel1" class="row">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container movie-img">
+              <div id="carousel2" class="row">
               </div>
             </div>
           </div>
@@ -102,7 +90,7 @@
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#displacement" data-bs-slide="next">
+        <button id="next" class="carousel-control-next" type="button" data-bs-target="#displacement" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
